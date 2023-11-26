@@ -4,7 +4,7 @@ pipeline {
     
     environment {
         DOCKER_HOST="unix://\$(pwd)/docker.sock"
-        STAGE_INSTANCE="ubuntu@172.31.33.234"
+        STAGE_INSTANCE="ubuntu@172.31.9.155"
     }
 
     stages {
